@@ -7,7 +7,7 @@ import org.json.JSONException;
 import android.app.Activity;
 import android.content.Intent;
 
-public class Calendar extends CordovaPlugin {
+public class calendar extends CordovaPlugin {
 	public static final String ACTION_ADD_CALENDAR_ENTRY = "addCalendarEntry";
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
